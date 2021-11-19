@@ -14,7 +14,7 @@ function App() {
   const [error, setError] = useState(null);
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
-  const [status, setStatus] = useState("idele");
+  const [status, setStatus] = useState("idle");
 
   useEffect(() => {
     if (!imageName) {
